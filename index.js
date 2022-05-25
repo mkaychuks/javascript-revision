@@ -6,3 +6,7 @@ console.log(str.indexOf('the'))
 
 // search a string -> returns the 'true' if a string contains a specified value
 console.log(str.includes('locate'))
+
+
+// // search a string -> returns the 'true' if a string startswith a specified value
+console.log(str.startsWith('Please'))
