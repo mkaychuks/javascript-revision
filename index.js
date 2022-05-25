@@ -23,3 +23,24 @@ let surName = "Doe";
 
 var fullName = `Your registered name is ${name} ${surName}`;
 console.log(fullName);
+
+
+// Javascript Number
+let x = 3.12; // a number with decimals
+
+let y = 1234e2; // exponential numbers
+
+
+let w = "2";
+let v = 2;
+
+console.log(w + w) // returns 22 (adding a string and number results to string concatenation)
+
+
+
+//JavaScript will try to convert strings to numbers in all numeric operations:
+
+let a = "100";
+let b = "10";
+
+let c = x / y; // returns 10
