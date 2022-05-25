@@ -1,12 +1,5 @@
-let text = "Please visit the nearest Microsoft store"
+// index of a string (first occurence of an text in a string)
 
-let newText = text.replace("store", 'Shop')
+let str = "Please locate where 'the' is located";
 
-console.log(text.split(" ")) // returns ['Please', 'visit', 'the', 'nearest', 'Microsoft', 'store']
-console.log(text) // returns Please visit the nearest Microsoft store
-console.log(newText) // returns Please visit the nearest Microsoft Shop
-
-
-
-
-console.log(text.search('e'))
+console.log(str.indexOf('the'))
