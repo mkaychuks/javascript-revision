@@ -81,3 +81,36 @@ let carLength = cars.length
 for(i=0; i < carLength; i++){
 	console.log(cars[i])
 }
+
+// array methods
+
+const alphabets = ['a', 'b', 'c', 'd', 'e']
+
+a = alphabets.toString() 
+b = alphabets.join(" * ")
+console.log(a) // returns 'a,b,c,d,e' as output
+console.log(b) // returns 'a * b * c * d * e' as output
+
+
+alphabets.pop() // removes last element in an array
+alphabets.push('f') // adds a element to an array, at the end
+
+
+function increaseAlphaSize(q){
+	return q.toUpperCase()
+}
+
+c = alphabets.map(increaseAlphaSize) // array .map() method
+console.log(c)
+
+vowels = ['a','e','i','o','u']
+
+function sortVowels(value){
+	if(value in vowels){
+		return 
+	}
+	value.toUpperCase()
+}
+
+d = alphabets.filter(sortVowels)
+console.log(d)
