@@ -44,3 +44,18 @@ let a = "100";
 let b = "10";
 
 let c = x / y; // returns 10
+
+// js numbers methods
+let number = 123
+
+console.log(number.toString()) // changes a number to a string
+
+let alpha = 12;
+const beta = alpha.toString()
+
+console.log(typeof(beta)) // checks the typeof
+
+
+// exponential
+let q = 9.656;
+console.log(q.toExponential(2))
