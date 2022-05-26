@@ -59,3 +59,25 @@ console.log(typeof(beta)) // checks the typeof
 // exponential
 let q = 9.656;
 console.log(q.toExponential(2))
+
+
+// js arrays
+/* is a special variable which can hold more thatn one value*/
+const cars = ['Saab', 'volvo', 'mercedes', 'toyota']
+
+console.log(cars[0]) // returns Saab which is the first element of the array
+
+cars[0] = "mazda" // replaces the item at index 0 with 'mazda'
+
+cars.length // returns the length of the list
+cars.sort() // sorts the list alphabetically
+
+let car = cars[cars.length - 1] // returns the last array element
+console.log(car)
+
+// looping through an array
+let carLength = cars.length
+
+for(i=0; i < carLength; i++){
+	console.log(cars[i])
+}
