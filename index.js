@@ -138,3 +138,9 @@ Math.round(x)	// Returns x rounded to its nearest integer
 Math.ceil(x)	// Returns x rounded up to its nearest integer
 Math.floor(x)	// Returns x rounded down to its nearest integer
 Math.trunc(x)	// Returns the integer part of x 
+
+// Ternary operator
+age = 12
+let voteable = (age < 18) ? "Too young to vote" : "Old enough to vote"
+
+console.log(voteable)
