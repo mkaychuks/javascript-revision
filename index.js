@@ -128,3 +128,13 @@ console.log(dateAndMonth)
 console.log(date.toUTCString())
 console.log(date.toDateString())
 console.log(date.toISOString())
+
+
+// javascript math
+console.log(Math.round(12.3))
+
+
+Math.round(x)	// Returns x rounded to its nearest integer
+Math.ceil(x)	// Returns x rounded up to its nearest integer
+Math.floor(x)	// Returns x rounded down to its nearest integer
+Math.trunc(x)	// Returns the integer part of x 
