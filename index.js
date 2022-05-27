@@ -106,11 +106,25 @@ console.log(c)
 vowels = ['a','e','i','o','u']
 
 function sortVowels(value){
-	if(value in vowels){
-		return 
+	if(vowels.includes(value)){
+		return value.toUpperCase()
 	}
-	value.toUpperCase()
 }
 
 d = alphabets.filter(sortVowels)
 console.log(d)
+// the best method to declare an array is using the 'const' keyword
+
+
+// javascript date
+const date = new Date()
+console.log(date)
+
+const dateAndMonth = new Date(1996, 5, 20)
+console.log(dateAndMonth)
+
+// date methods
+
+console.log(date.toUTCString())
+console.log(date.toDateString())
+console.log(date.toISOString())
