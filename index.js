@@ -180,3 +180,26 @@ let len = ['a','b','c','d'];
 for(let q = 0; q < len.length; q++){
 	console.log(len[q])
 }
+
+
+// javascript for-in loop
+// this loops through the properties of an object
+const person = {
+	fname: "John",
+	lname: 'Doe',
+	age: 25
+}
+
+let texts = " ";
+for (let x in person){
+	console.log(x)
+	console.log(texts += person[x])
+}
+
+const brila = [45, 4, 9, 16, 25];
+
+let txt = "";
+for (let x in brila) {
+	console.log(x)
+  	console.log(txt += brila[x]);
+}
