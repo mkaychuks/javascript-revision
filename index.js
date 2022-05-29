@@ -203,3 +203,11 @@ for (let x in brila) {
 	console.log(x)
   	console.log(txt += brila[x]);
 }
+
+// javascript array.foreach()
+const sapientia = [1,2,3,4,5,6,7,8,9];
+
+function myFunction(value){
+	console.log(value)
+}
+sapientia.forEach(myFunction)
