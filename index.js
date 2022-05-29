@@ -172,3 +172,11 @@ switch(voters){
 		numbers = 'Over 200'
 		break;
 }
+
+
+// javascript for-loop
+let len = ['a','b','c','d'];
+
+for(let q = 0; q < len.length; q++){
+	console.log(len[q])
+}
