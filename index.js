@@ -144,3 +144,31 @@ age = 12
 let voteable = (age < 18) ? "Too young to vote" : "Old enough to vote"
 
 console.log(voteable)
+
+
+// javascript conditionals
+// if statements
+
+let voters = 200
+
+if(voters < 100){
+	console.log("Welcome home")
+}
+
+const greeting = (voters < 100) ? 'Welcome Home': 'Get your numbers together'
+console.log(greeting)
+
+
+let numbers;
+// switch statement
+switch(voters){
+	case voters < 100:
+		numbers = "Under 100";
+		break;
+	case voters == 100:
+		numbers = "Equal numbers";
+		break;
+	case voters > 200:
+		numbers = 'Over 200'
+		break;
+}
