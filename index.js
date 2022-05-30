@@ -212,7 +212,6 @@ function myFunction(value){
 }
 sapientia.forEach(myFunction)
 
-
 // for-of loop
 const language = 'Javascript';
 
@@ -224,3 +223,17 @@ const models = ['BMW','Volvo','Toyota']
 for(let y of models){
 	console.log(y)
 }
+
+// while loop
+let s = 9;
+while(s < 13){
+	console.log(s)
+	s++
+}
+
+/* do-while loop */
+let h = 9
+do{
+	console.log(`${h} is the current number`)
+	h++
+}while(h < 13)
