@@ -252,3 +252,18 @@ for(let i = 0; i < 10; i++){
 	}
 	console.log(`The number is " + ${i} + "<br>;`)
 }
+
+// javascript sets: a set is a collection of unique values, eash value can only occur 
+//once in a set
+const letters = new Set(["a","b","c"]);
+
+// add a value to a set
+const laptops = new Set()
+
+laptops.add('lenovo')
+laptops.add('Lenovo')
+laptops.add('macbook Pro')
+laptops.add('MacBook Pro')
+console.log(laptops)
+
+laptops.forEach(value => myFunction(value))
