@@ -211,3 +211,16 @@ function myFunction(value){
 	console.log(value)
 }
 sapientia.forEach(myFunction)
+
+
+// for-of loop
+const language = 'Javascript';
+
+for(let x of language){
+	console.log(x)
+}
+
+const models = ['BMW','Volvo','Toyota']
+for(let y of models){
+	console.log(y)
+}
