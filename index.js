@@ -237,3 +237,18 @@ do{
 	console.log(`${h} is the current number`)
 	h++
 }while(h < 13)
+
+// break and continue statement
+for(let i = 0; i < 10; i++){
+	if(i === 3){
+		break
+	}
+	console.log(`The number is " + ${i} + "<br>;`)
+}
+
+for(let i = 0; i < 10; i++){
+	if(i === 3){
+		continue
+	}
+	console.log(`The number is " + ${i} + "<br>;`)
+}
