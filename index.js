@@ -207,8 +207,8 @@ for (let x in brila) {
 // javascript array.foreach()
 const sapientia = [1,2,3,4,5,6,7,8,9];
 
-function myFunction(value){
-	console.log(value)
+function myFunction(key, value){
+	console.log(key, value)
 }
 sapientia.forEach(myFunction)
 
@@ -267,3 +267,23 @@ laptops.add('MacBook Pro')
 console.log(laptops)
 
 laptops.forEach(value => myFunction(value))
+
+
+// javascript map: A Map holds key-value pairs where the keys can be any datatype.
+const fruits = new Map([
+	["apples", 500],
+	["bananas", 300],
+	["oranges", 200]
+]);
+console.log(fruits)
+
+// Map methods
+//.set()
+const Car = new Map()
+Car.set("name", "Toyota")
+Car.set("model", "Camry")
+Car.set("year", 2020)
+
+console.log(Car)
+
+Car.forEach((key, value )=> myFunction(key, value))
