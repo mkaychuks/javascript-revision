@@ -287,3 +287,25 @@ Car.set("year", 2020)
 console.log(Car)
 
 Car.forEach((key, value )=> myFunction(key, value))
+
+
+// 'use strict' mode
+
+function ourFunction(){
+	"use-strict";
+	y = 3.14;  // this will throw an error because the variable y was not initially declared
+}
+
+// the this keyword
+const human = {
+	firstName: 'John',
+	lastName: 'Doe',
+	id: 3344,
+	fullName: function (){
+		return (`${this.firstName} ${this.lastName} ${this.id}`) // this refers to the object 
+	}
+}
+
+let humans = human.fullName()
+console.log(humans)
+
