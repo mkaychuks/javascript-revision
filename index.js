@@ -348,3 +348,31 @@ class Hotels {
 let myHotel = new Hotels("Pacific Rim Inland Hotels", "Ocean 18 Drive Lagos")
 console.log(myHotel.getFullLocation())
 console.log(myHotel.getCapacity(250))
+
+// class inheritance
+
+class Name {
+	constructor(firstName){
+		this.firstName = firstName;
+	}
+
+	getFirstName(){
+		return `Hello ${this.firstName}`
+	}
+}
+
+
+class Surname extends Name{
+	constructor(firstName, surName){
+		super(firstName);
+		this.surName = surName;
+		
+	}
+
+	getFullName(){
+		return this.getFirstName() + " " + this.surName
+	}
+}
+
+let myName = new Surname("John", "Doe")
+console.log(myName.getFullName())
