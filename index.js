@@ -376,3 +376,21 @@ class Surname extends Name{
 
 let myName = new Surname("John", "Doe")
 console.log(myName.getFullName())
+
+
+// fetch api
+const id = Math.random() * 10 // generate the random id
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+.then(response => response.json())
+.then(commits => console.log(commits.slice(0, 5))) // returns the first five result from the response
+ 
+// fetch a particular post with a unique id
+fetch(`https://jsonplaceholder.typicode.com/posts/${id.toFixed()}`) // convert to the nearest whole number {id.toFixed()}
+.then(response => response.json())
+.then(result => console.log(result))
+
+// fetch a particular comment with a unique id to a post
+fetch(`https://jsonplaceholder.typicode.com/comments?postId=${id.toFixed()}`) // convert to the nearest whole number {id.toFixed()}
+.then(response => response.json())
+.then(result => console.log(result))
