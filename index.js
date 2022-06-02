@@ -309,3 +309,42 @@ const human = {
 let humans = human.fullName()
 console.log(humans)
 
+
+// arrow functions
+
+function helloWorld(){
+	return 'Hello World'
+}
+
+hello = (val) => "Hello " + val
+
+a = hello("QueensLand")
+console.log(a)
+
+
+// javascript classes
+
+/* basic syntax is 
+class ClassName {
+	constructor() { ... }
+  } */
+
+class Hotels {
+	constructor(name, location){
+		this.name = name,
+		this.location = location
+	}
+
+	getFullLocation(){
+		return `${this.name} is located at ${this.location}`
+	}
+
+	getCapacity(number){
+		return `${this.getFullLocation()} contains ${number} of persons`
+	}
+}
+
+
+let myHotel = new Hotels("Pacific Rim Inland Hotels", "Ocean 18 Drive Lagos")
+console.log(myHotel.getFullLocation())
+console.log(myHotel.getCapacity(250))
