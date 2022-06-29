@@ -1,3 +1,7 @@
-let age: number;
+// built in types in typescript
 
-age = parseInt("2")
+let age: number = 2
+let course: string= "Typescript"
+let is_published: boolean = false
+
+
