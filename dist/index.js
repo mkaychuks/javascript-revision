@@ -11,6 +11,9 @@ let names = "Typecript";
 let surname = " is the new sauce";
 let final = names.concat(surname);
 console.log(final);
+const firstName = "John";
+const surName = "Doe";
+console.log(`Your fullname is ${firstName} ${surName}`);
 names = "Brila FM";
 if (names.charAt(3) === 'i') {
     console.log(true);

@@ -18,6 +18,11 @@ let surname: string = " is the new sauce"
 let final = names.concat(surname)
 console.log(final)
 
+// string literals
+const firstName: string= "John"
+const surName: string = "Doe"
+console.log(`Your fullname is ${firstName} ${surName}`)
+
 
 // if-else statements
 names = "Brila FM"
