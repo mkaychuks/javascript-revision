@@ -62,7 +62,7 @@ console.log(q.toExponential(2))
 
 
 // js arrays
-/* is a special variable which can hold more thatn one value*/
+/* is a special variable which can hold more than one value*/
 const cars = ['Saab', 'volvo', 'mercedes', 'toyota']
 
 console.log(cars[0]) // returns Saab which is the first element of the array

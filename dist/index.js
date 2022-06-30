@@ -17,3 +17,7 @@ let age = 2;
 console.log(age.toString());
 console.log(age.toExponential(3));
 console.log(age.toLocaleString());
+const cars = ['Saab', 'volvo', 'mercedes', 'toyota'];
+const motor = ['Saab', 123, 'volvo', 1234, true, true, 'Wonderful'];
+const bool = [true, false, false, true];
+const nums = [1, 2, 3, 4, 5];
