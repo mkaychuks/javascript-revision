@@ -17,3 +17,13 @@ let surname: string = " is the new sauce"
 
 let final = names.concat(surname)
 console.log(final)
+
+
+// if-else statements
+names = "Brila FM"
+
+if(names.charAt(3) === 'i'){
+    console.log(true)
+} else {
+    console.log(false)
+}

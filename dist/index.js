@@ -11,4 +11,10 @@ let names = "Typecript";
 let surname = " is the new sauce";
 let final = names.concat(surname);
 console.log(final);
-console.log(typeof (name));
+names = "Brila FM";
+if (names.charAt(3) === 'i') {
+    console.log(true);
+}
+else {
+    console.log(false);
+}
