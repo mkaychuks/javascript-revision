@@ -10,3 +10,10 @@ console.log(course.toUpperCase())
 console.log(course.length)
 console.log(course.slice(3, 12))
 console.log(course.trim())
+
+// concat strings
+let names: string = "Typecript"
+let surname: string = " is the new sauce"
+
+let final = names.concat(surname)
+console.log(final)

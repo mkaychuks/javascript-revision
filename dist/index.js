@@ -7,3 +7,8 @@ console.log(course.toUpperCase());
 console.log(course.length);
 console.log(course.slice(3, 12));
 console.log(course.trim());
+let names = "Typecript";
+let surname = " is the new sauce";
+let final = names.concat(surname);
+console.log(final);
+console.log(typeof (name));
