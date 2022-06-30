@@ -1,6 +1,5 @@
 // built in types in typescript
 
-let age: number = 2
 let course: string= "Type script"
 let is_published: boolean = false
 
@@ -24,11 +23,9 @@ const surName: string = "Doe"
 console.log(`Your fullname is ${firstName} ${surName}`)
 
 
-// if-else statements
-names = "Brila FM"
+// numbers in typescript
+let age: number = 2
 
-if(names.charAt(3) === 'i'){
-    console.log(true)
-} else {
-    console.log(false)
-}
+console.log(age.toString())
+console.log(age.toExponential(3))
+console.log(age.toLocaleString())

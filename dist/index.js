@@ -1,5 +1,4 @@
 "use strict";
-let age = 2;
 let course = "Type script";
 let is_published = false;
 let courses = course.endsWith("p");
@@ -14,10 +13,7 @@ console.log(final);
 const firstName = "John";
 const surName = "Doe";
 console.log(`Your fullname is ${firstName} ${surName}`);
-names = "Brila FM";
-if (names.charAt(3) === 'i') {
-    console.log(true);
-}
-else {
-    console.log(false);
-}
+let age = 2;
+console.log(age.toString());
+console.log(age.toExponential(3));
+console.log(age.toLocaleString());
