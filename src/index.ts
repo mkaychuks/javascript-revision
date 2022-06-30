@@ -36,3 +36,33 @@ const cars: string[] = ['Saab', 'volvo', 'mercedes', 'toyota'] // this array acc
 const motor: (string | number | boolean )[] = ['Saab', 123, 'volvo', 1234, true, true, 'Wonderful'] // this array accepts either a string, a number or a boolean type of object
 const bool: boolean[] = [true, false, false, true] // this array accepts only booleans
 const nums: number[] = [1,2,3,4,5] // this array accepts only numbers
+
+// array methods
+cars.push("Hurricane")
+console.log(cars)
+
+cars.splice(1, 1)
+console.log(cars)
+
+console.log(motor.sort())
+
+console.log(cars[2].toUpperCase())
+console.log(motor[1].toString())
+
+let a = cars.toString()
+console.log(a)
+let b = cars.join(", ")
+console.log(b)
+
+// map and filter method
+function increaseAlpha(letter: any){
+    return letter.toUpperCase()
+}
+console.log(cars.map((car) => increaseAlpha(car)))
+
+function startsWithT(m: any){
+    if(m.charAt(0) === 'S'){
+        return m.toUpperCase()
+    }
+}
+console.log(cars.filter((car) => startsWithT(car)))
