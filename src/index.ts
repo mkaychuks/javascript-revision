@@ -107,3 +107,27 @@ while(ndlea.charAt(0) === 'D' && counter < 6){
     console.log("Infinity stones")
     counter++
 }
+
+
+// functions in typescript
+function addTwo(a: number, b: number): number{
+    return a + b
+}
+console.log(addTwo(2,2))
+
+// functions with default values>
+function calculateTax(income: number, taxYear: number = 2020): number {
+    if(taxYear < 2022){
+        return income * 1.2
+    }
+    return income * 1.3
+}
+console.log(calculateTax(20_000))
+
+// arrow functions in typescript
+const calculateTaxs = (income: number, taxYear: number = 2020) : number => {
+    if(taxYear < 2022){
+        return income * 1.2
+    }
+    return income * 1.3
+}

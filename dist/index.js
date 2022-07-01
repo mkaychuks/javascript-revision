@@ -68,3 +68,20 @@ while (ndlea.charAt(0) === 'D' && counter < 6) {
     console.log("Infinity stones");
     counter++;
 }
+function addTwo(a, b) {
+    return a + b;
+}
+console.log(addTwo(2, 2));
+function calculateTax(income, taxYear = 2020) {
+    if (taxYear < 2022) {
+        return income * 1.2;
+    }
+    return income * 1.3;
+}
+console.log(calculateTax(20000));
+const calculateTaxs = (income, taxYear = 2020) => {
+    if (taxYear < 2022) {
+        return income * 1.2;
+    }
+    return income * 1.3;
+};
