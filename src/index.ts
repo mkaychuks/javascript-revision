@@ -24,7 +24,7 @@ console.log(`Your fullname is ${firstName} ${surName}`)
 
 
 // numbers in typescript
-let age: number = 2
+let age = 2
 
 console.log(age.toString())
 console.log(age.toExponential(3))
@@ -66,3 +66,35 @@ function startsWithT(m: any){
     }
 }
 console.log(cars.filter((car) => startsWithT(car)))
+
+// if-else statements, while, switch statements, ternary operator
+age = 26
+
+const voteable = (age <= 18) ? "You are not eligible to vote" : "Go and get your pvc"
+console.log(voteable)
+
+// the above can be written as the following
+if(age <= 18)
+    console.log('You are not eligible to vote')
+console.log('Go and get your pvc')
+
+// or
+if(age <= 18){
+    console.log("You are not eligible to vote")
+} else {
+    console.log('Go and get your pvc')
+}
+
+
+// for loop (old method--- i guess)
+for(let i= 0; i < cars.length; i++){
+    let text = " is a car"
+    console.log(cars[i].concat(text))
+}
+
+// seems better than the previous
+for(let i in cars){
+    console.log(cars[i])
+}
+
+cars.forEach((car) => console.log(car.toUpperCase()))

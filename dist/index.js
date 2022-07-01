@@ -42,3 +42,23 @@ function startsWithT(m) {
     }
 }
 console.log(cars.filter((car) => startsWithT(car)));
+age = 26;
+const voteable = (age <= 18) ? "You are not eligible to vote" : "Go and get your pvc";
+console.log(voteable);
+if (age <= 18)
+    console.log('You are not eligible to vote');
+console.log('Go and get your pvc');
+if (age <= 18) {
+    console.log("You are not eligible to vote");
+}
+else {
+    console.log('Go and get your pvc');
+}
+for (let i = 0; i < cars.length; i++) {
+    let text = " is a car";
+    console.log(cars[i].concat(text));
+}
+for (let i in cars) {
+    console.log(cars[i]);
+}
+cars.forEach((car) => console.log(car.toUpperCase()));
