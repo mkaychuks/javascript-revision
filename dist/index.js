@@ -62,3 +62,9 @@ for (let i in cars) {
     console.log(cars[i]);
 }
 cars.forEach((car) => console.log(car.toUpperCase()));
+let ndlea = "Drug and Law Enforcers";
+let counter = 0;
+while (ndlea.charAt(0) === 'D' && counter < 6) {
+    console.log("Infinity stones");
+    counter++;
+}
